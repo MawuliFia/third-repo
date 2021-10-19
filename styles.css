@@ -1,0 +1,39 @@
+/* HOUSEKEEPING */
+
+* {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-div {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 300px;
+    padding: 20px;
+}
+
+.button-div {
+    /* border: 1px solid blue; */
+    width: 30%;
+    padding: 10px 0px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#blue-button {
+    margin-right: 10px;
+    background-color: rgb(13, 178, 255);
+    border: none;
+    transition: all 0.1s ease-in;
+}
+
+#red-button {
+    margin-left: 10px;
+    background-color: rgb(255, 81, 81);
+    border: none;
+    transition: all 0.1s ease-in;
+}
