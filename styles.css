@@ -18,6 +18,10 @@
     padding: 10px 0px;
 }
 
+#header-change {
+    transition: all 1 ease-in-out;
+}
+
 button {
     width: 100px;
     height: 40px;
@@ -36,4 +40,14 @@ button {
     background-color: rgb(255, 81, 81);
     border: none;
     transition: all 0.1s ease-in;
+}
+
+#red-button:hover {
+    background-color: rgb(240, 29, 72);
+    color: gainsboro;
+}
+
+#blue-button:hover {
+    background-color: rgba(23, 86, 223, 0.856);
+    color: gainsboro;
 }
